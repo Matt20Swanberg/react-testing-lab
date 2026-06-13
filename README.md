@@ -136,6 +136,9 @@ Verifies that:
 ![Sort Functionality](./screenshots/sort-description.png)
 ![Sort Functionality](./screenshots/sort-category.png)
 
+### Test Suite Success
+
+![Test Suite](./screenshots/test-success.png)
 
 ---
 
