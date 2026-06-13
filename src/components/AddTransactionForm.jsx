@@ -1,6 +1,9 @@
 import React from "react";
 
 function AddTransactionForm({ postTransaction }) {
+
+  // Handles form submission and creates a new transaction object
+  // before passing it to the parent component.
   function submitForm(e) {
     e.preventDefault()
 

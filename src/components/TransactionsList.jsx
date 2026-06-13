@@ -1,9 +1,11 @@
 import React from "react";
 import Transaction from "./Transaction";
 
-function TransactionsList({transactions}) {
-  const transactionComponent = transactions.map((transaction)=>{
-    return <Transaction key={transaction.id} transaction={transaction}/>
+function TransactionsList({ transactions }) {
+
+  // Convert each transaction object into a table row component.
+  const transactionComponent = transactions.map((transaction) => {
+    return <Transaction key={transaction.id} transaction={transaction} />
   })
   return (
     <table className="ui celled striped padded table">
