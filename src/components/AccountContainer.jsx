@@ -29,7 +29,11 @@ function AccountContainer() {
 
   // Sort function here
   function onSort(sortBy) {
+    const sortedTransactions = [...transactions].sort((a, b) =>
+      a[sortBy].localeCompare(b[sortBy])
+    );
 
+    setTransactions(sortedTransactions);
   }
 
   const filteredTransactions = transactions.filter((transaction) =>
