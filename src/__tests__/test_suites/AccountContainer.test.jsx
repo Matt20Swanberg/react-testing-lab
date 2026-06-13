@@ -1,6 +1,6 @@
 import { render, screen, waitFor } from "@testing-library/react";
 import { describe, it, expect, vi, beforeEach } from "vitest";
-import AccountContainer from "./AccountContainer";
+import AccountContainer from "../../components/AccountContainer.jsx";
 
 describe("AccountContainer", () => {
   beforeEach(() => {
